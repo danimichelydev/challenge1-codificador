@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Segredo</title>
+</head>
+<body>
+    <main>
+        <h1>Criptografia</h1>
+
+        <section class="primeiroForm sectionForm">
+
+            <form class="form-criptografar">
+                <label for="input-texto">Letras minúsculas e sem acento</label> <br>                
+
+                <input class="texto-input" 
+                    type="text" name="texto-input" 
+                    placeholder="Insira a frase a ser criptografada"> <br>              
+
+                <div class="botoes">
+                    <button class="btn" id="btn-criptografar">CRIPTOGRAFAR</button>
+                     <button class="btn" id="btn-descriptografar">DESCRIPTOGRAFAR</button>
+                </div>                
+
+        </section>
+
+        <section class="mensagem">
+            <div class="msg">
+                <p>Mensagem criptografada</p>
+
+                <span class="mostraMsg" value="msg">
+                    <div class="loading"></div>
+                </span>
+
+            </div>
+            <button id="btn-copiar">Copiar</button>
+        </section>
+
+    </main>
+    
+
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>
