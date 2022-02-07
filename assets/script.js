@@ -41,7 +41,6 @@ function copiarTexto() {
 function mostraMensagemCriptografada(){
 	let valor = input.value;
 	let textoTrocado = valor;
-	// textoTrocado = textoTrocado.replace(/a/g, "ai");
 	textoTrocado = textoTrocado.replace(/e/g, "enter");
 	textoTrocado = textoTrocado.replace(/i/g, "imes");	
 	textoTrocado = textoTrocado.replace(/a/g, "ai");
