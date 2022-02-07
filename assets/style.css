@@ -45,7 +45,7 @@ main h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 450px;
+    width: 500px;
     height: 170px;
     background-color: rgba(15, 1, 1, 0.404);
     border-radius: 10px;
@@ -81,6 +81,7 @@ form input {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 500px;
     height: 180px;
     margin-top: 20px;
     background-color: rgba(15, 1, 1, 0.404);
@@ -124,4 +125,7 @@ form input {
     to{
         transform: rotate(1turn);
     }
+}
+textarea {
+    white-space: pre-wrap;
 }

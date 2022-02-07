@@ -23,7 +23,6 @@ botaoDesriptografar.addEventListener("click", function(e){
 botaoCopiar.addEventListener("click", function(e){
 	e.preventDefault();
 	copiarTexto();
-
 })
 
 //OPIAR TEXTO
@@ -49,7 +48,6 @@ function mostraMensagemCriptografada(){
 
 	mostraMsg.innerText = textoTrocado;	
 }
-
 
 //MOSTRA MENSAGEM DESCRIPTOGRAFADA
 function mostraMensagemDescriptografada(){
